@@ -26,7 +26,10 @@ export const API_NOTIFICATIONS_MESSAGES ={
 
 
 //API service call
-
+//In order to add new api just add object
 export const SERVICE_URLS ={
-    userSignup : { url : '/signup',method: 'POST'}
+    userSignup : { url : '/signup',method: 'POST'},
+    userLogin : { url : '/login', method:'POST'},
+    uploadFile : { url: '/file/upload', method:'POST' },
+    createPost : {url: 'create',method:'POST'}
 }
